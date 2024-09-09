@@ -14,6 +14,7 @@
 body {
   font-family: "Oldenburg", serif;
   font-size: 22px;
+  margin: 0 20px;
   color: var(--grey);
   background-color: var(--neutral);
 }
@@ -97,7 +98,7 @@ button:hover {
 .large-body {
   font-family: "Oldenburg", serif;
   font-size: 22px;
-  color: var(--brand-dark);
+  color: #474852;
   line-height: 1.6;
 }
 
@@ -116,7 +117,7 @@ button:hover {
 p {
   font-family: "Oldenburg", serif;
   font-size: 22px;
-  color: #ffffff;
+  color: #474852;
 }
 
 /* Highlights and Neutral */
@@ -142,6 +143,7 @@ header {
   background: #111;
   width: 100%;
   height: 50px;
+  margin-top: 100px;
 }
 .page-wrap {
   padding: 2rem 0;
@@ -169,6 +171,7 @@ footer .container {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  margin-bottom: 30px;
 }
 footer .top-bar li a {
   list-style-type: none;
@@ -250,4 +253,68 @@ footer .container {
   height: 100%;
   background: rgba(0, 0, 0, 0.3); /* Optional overlay */
   z-index: 0;
+}
+
+.core-section {
+  display: flex;
+  align-items: center;
+}
+
+.core-section {
+  background-color: #e77436;
+  display: flex;
+  margin-top: 60px;
+  flex-direction: row; /* Aligns items horizontally */
+  justify-content: space-between; /* Adds space between items */
+  flex-wrap: wrap; /* Allows wrapping of items if the screen is too small */
+  gap: 20px; /* Adds space between items */
+}
+
+.content-item {
+  flex: 1 1 30%; /* Makes each content box take up 30% of the width */
+  display: flex;
+  flex-direction: column; /* Aligns image, heading, and text vertically */
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin-top: -80px;
+  margin-bottom: 0px;
+}
+
+.content-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.content-item h1 {
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.content-item p {
+  font-size: 16px;
+  color: #ffffff;
+}
+.ex-section {
+  display: flex;
+  margin-top: 60px;
+  flex-direction: row; /* Aligns items horizontally */
+  justify-content: center; /* Adds space between items */
+  flex-wrap: wrap; /* Allows wrapping of items if the screen is too small */
+  gap: 220px; /* Adds space between items */
+}
+/* Optional: Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .core-section {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .content-item {
+    flex: 1 1 100%; /* Full width on smaller screens */
+  }
+}
+.about-me-section {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }

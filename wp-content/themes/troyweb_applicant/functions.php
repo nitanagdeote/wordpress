@@ -47,3 +47,56 @@ register_nav_menus(
         'mobile-menu' =>'mobile-menu-location'
     )
 );
+
+#########################################3
+
+
+add_action( 'init', 'create_custom_post_type' );
+
+function create_custom_post_type() {
+    $supports = array(
+        'title', // post title
+        'editor', // post content
+        'author', // post author
+        'thumbnail', // featured images
+        'excerpt', // post excerpt
+        'custom-fields', // custom fields
+        'comments', // post comments
+        'revisions', // post revisions
+        'post-formats', // post formats
+        );
+    $labels = array(
+        'name' => _x('core values', 'plural'),
+        'singular_name' => _x('core value', 'singular'),
+        'menu_name' => _x('core values', 'admin menu'),
+        'name_admin_bar' => _x('core values', 'admin bar'),
+        'add_new' => _x('Add New', 'add new'),
+        'add_new_item' => __('Add New core value'),
+        'new_item' => __('core value'),
+        'edit_item' => __('Edit New core value'),
+        'view_item' => __('View  core value'),
+        'all_items' => __('All core value'),
+        'search_items' => __('Search core value'),
+        'not_found' => __('No news found.'),
+        );
+
+
+$args = array(
+    'supports' => $supports,
+  'labels' =>  $labels ,
+  'public' => true,
+  'has_archive' => false,
+  'rewrite' => array('slug' => 'core values'),
+ );
+
+register_post_type( 'core value',$args);
+}
+
+
+
+
+
+
+
+############################################
+?>
