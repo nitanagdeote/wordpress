@@ -14,7 +14,7 @@
 body {
   font-family: "Oldenburg", serif;
   font-size: 22px;
-  margin: 0 20px;
+  /* margin: 0 20px; */
   color: var(--grey);
   background-color: var(--neutral);
 }
@@ -189,12 +189,12 @@ footer .container {
 }
 /* Hero Section */
 .hero-section {
-  background-image: url("<?php echo get_template_directory_uri(); ?>/assets/images/hero-background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 50vh; /* Full viewport height */
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -204,12 +204,12 @@ footer .container {
 }
 
 /* Hero Content Styling */
-.hero-content {
+/* .hero-content {
   max-width: 800px;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.5); /* Slightly transparent background */
+  background-color: rgba(0, 0, 0, 0.5); 
   border-radius: 10px;
-}
+} */
 
 /* Hero Heading */
 .hero-content h1 {
@@ -226,6 +226,23 @@ footer .container {
   font-size: 24px;
   color: #ffffff;
   margin-top: 10px;
+}
+
+.hero-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 60px;
+}
+
+.hero-section-entry {
+  display: flex;
+}
+
+.hero-section-title {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 /* Hero Button */
@@ -259,6 +276,9 @@ footer .container {
   z-index: 0;
 }
 
+.below-hero-section {
+  padding: 30px;
+}
 .core-section {
   display: flex;
   align-items: center;

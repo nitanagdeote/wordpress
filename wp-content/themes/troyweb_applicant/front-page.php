@@ -5,28 +5,31 @@
     </div>
 </section>
 
+<style>
+    .hero-section {
+        background-image: url("<?php echo get_template_directory_uri(); ?>/assets/images/hero-background.jpg");
+    }
+</style>
 <section class='page-wrap'>
     <div class="hero-section">
-        <div class="hero-content">
-            <h1>Troy Web Developers: </h1>
-            <p>
-            <h1>Troy Web</h1>
-            </p>
-        </div>
+        <h1>Troy Web Developers: </h1>
+        <h1>Troy Web</h1>
     </div>
 </section>
 <section class='page-wrap'>
     <div class="hero-section-bottom">
         <div class="hero-content-bottom">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tw-robot-profile.png" alt="Be Kind">
-
-            <div>
-                <h4>Species:Robot</h4>
+            <div class="hero-sections">
+                <div class="hero-section-entry">
+                    <div class="hero-section-title">Species:</div>
+                    <div>Robot</div>
+                </div>
+                <div class="hero-section-entry">
+                    <div class="hero-section-title">Skills:</div>
+                    <div>PHP,WordPress,SQL</div>
+                </div>
             </div>
-            <div>
-                <h4>Skills:PHP,WordPress,SQL</h4>
-            </div>
-
         </div>
     </div>
 </section>
