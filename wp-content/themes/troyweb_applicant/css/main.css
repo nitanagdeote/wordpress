@@ -157,6 +157,7 @@ header .top-bar {
 }
 header .top-bar li a {
   padding: 0.25rem 1rem;
+  color: black;
 }
 
 header .container {
