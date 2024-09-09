@@ -20,7 +20,10 @@
     <div class="hero-section-bottom">
     <div class="hero-content-bottom">
     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tw-robot-profile.png" alt="Be Kind">
-
+   
+    <div> <h4>Species:Robot</h4></div>  
+     <div><h4>Skills:PHP,WordPress,SQL</h4></div>
+      
     </div>
 </div>
 </section>
