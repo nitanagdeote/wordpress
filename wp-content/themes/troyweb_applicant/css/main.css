@@ -318,3 +318,23 @@ footer .container {
   margin-top: 60px;
   margin-bottom: 60px;
 }
+.social-icon {
+  color: grey;
+  font-size: 24px; /* Adjust the size */
+  margin-right: 10px; /* Space between icons */
+}
+
+/* Add hover effect */
+.social-icon:hover {
+  color: #3b5998; /* Facebook blue */
+}
+.hero-content-bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+nav-logo-bottom {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
