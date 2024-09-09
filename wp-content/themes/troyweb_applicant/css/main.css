@@ -1,0 +1,253 @@
+/* Google Fonts Import */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oldenburg&family=Oregano&display=swap");
+
+/* Global Colors */
+:root {
+  --brand-orange: #e77436;
+  --brand-dark: #29292e;
+  --grey: #474852;
+  --highlight: #f7ceb8;
+  --neutral: #efefef;
+}
+
+/* Global Styles */
+body {
+  font-family: "Oldenburg", serif;
+  font-size: 22px;
+  color: var(--grey);
+  background-color: var(--neutral);
+}
+
+/* H1 Heading */
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: var(--brand-orange);
+}
+
+/* H2 Heading */
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: var(--brand-dark);
+}
+
+/* H3 Heading */
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+}
+
+/* Navigation Heading */
+.nav-heading {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--brand-dark);
+  border: 16px solid var(--brand-orange);
+  background: linear-gradient(to right, var(--brand-dark), var(--grey));
+  padding: 10px;
+}
+
+/* Button Styles */
+button {
+  font-family: "Lato", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: #ffffff;
+  background-color: var(--brand-orange);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  color: var(--brand-orange);
+  background-color: #ffffff;
+  border: 3px solid var(--brand-orange);
+}
+
+/* Navigation Button Style */
+.nav-button {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: var(--brand-orange);
+  padding: 10px 20px;
+}
+
+.nav-button:hover {
+  color: var(--brand-orange);
+  background-color: #ffffff;
+  border: 3px solid var(--brand-orange);
+}
+
+/* Large Body Copy */
+.large-body {
+  font-family: "Oldenburg", serif;
+  font-size: 22px;
+  color: var(--brand-dark);
+  line-height: 1.6;
+}
+
+/* Social Icons */
+.social-icon {
+  font-family: "Oregano", cursive;
+  font-size: 34px;
+  color: var(--grey);
+}
+
+.social-icon i {
+  color: var(--grey);
+}
+
+/* Body Copy */
+p {
+  font-family: "Oldenburg", serif;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+/* Highlights and Neutral */
+.highlight {
+  background-color: var(--highlight);
+  padding: 5px;
+  border-radius: 3px;
+  color: var(--brand-dark);
+}
+
+.neutral {
+  background-color: var(--neutral);
+  padding: 5px;
+  border-radius: 3px;
+  color: var(--brand-dark);
+}
+
+header {
+  width: 100%;
+  height: 100px;
+}
+.footer-top {
+  background: #111;
+  width: 100%;
+  height: 50px;
+}
+.page-wrap {
+  padding: 2rem 0;
+}
+
+header .top-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+header .top-bar li a {
+  padding: 0.25rem 1rem;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+footer .top-bar li a {
+  list-style-type: none;
+  padding: 0.25rem 1rem;
+}
+header .container .nav-logo {
+  padding-top: 30px; /* Add spacing between the logo and menu */
+}
+footer .container {
+  margin-top: 30px; /* Add spacing between the logo and menu */
+}
+/* Hero Section */
+.hero-section {
+  background-image: url("<?php echo get_template_directory_uri(); ?>/assets/images/hero-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+/* Hero Content Styling */
+.hero-content {
+  max-width: 800px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Slightly transparent background */
+  border-radius: 10px;
+}
+
+/* Hero Heading */
+.hero-content h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: #e77436; /* Brand Orange */
+}
+
+/* Hero Subheading */
+.hero-content p {
+  font-family: "Oldenburg", serif;
+  font-size: 24px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+/* Hero Button */
+.hero-btn {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  background-color: #e77436;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #c65a28; /* Darker shade of Brand Orange */
+}
+
+/* Optional Overlay for Hero Section */
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Optional overlay */
+  z-index: 0;
+}
