@@ -2,3 +2,4 @@
 [09-Sep-2024 00:57:52 UTC] PHP Deprecated:  Function wp_update_https_detection_errors is <strong>deprecated</strong> since version 6.4.0 with no alternative available. in /opt/lampp/htdocs/wordpress-6.6.1/wordpress/wp-includes/functions.php on line 6085
 [09-Sep-2024 00:57:53 UTC] Automatic updates starting...
 [09-Sep-2024 00:57:54 UTC] Automatic updates complete.
+[09-Sep-2024 02:44:03 UTC] PHP Warning:  Attempt to read property "title" on null in /opt/lampp/htdocs/wordpress-6.6.1/wordpress/wp-includes/class-wp-customize-widgets.php on line 905
