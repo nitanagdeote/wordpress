@@ -7,6 +7,12 @@ function load_css() {
     
     // Enqueue the registered Bootstrap CSS file
     wp_enqueue_style('bootstrap');
+
+     // Register the Main CSS file
+     wp_register_style('main', get_template_directory_uri() . '/css/main.css', array(), false, 'all');
+    
+     // Enqueue the registered Main CSS file
+     wp_enqueue_style('main');
 }
 
 // Hook the 'load_css' function to 'wp_enqueue_scripts', which is the correct action for enqueuing styles and scripts
@@ -26,3 +32,18 @@ function load_js() {
 
 // Hook the 'load_js' function to 'wp_enqueue_scripts', which is the correct action for enqueuing styles and scripts
 add_action('wp_enqueue_scripts', 'load_js');
+
+// Add menu
+
+add_theme_support('menus');
+
+// Register top bar menus
+
+register_nav_menus(
+
+    array(
+
+        'top-menu' =>'top-menu-location',
+        'mobile-menu' =>'mobile-menu-location'
+    )
+);

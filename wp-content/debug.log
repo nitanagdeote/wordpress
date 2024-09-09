@@ -66,3 +66,6 @@ Stack trace:
 [09-Sep-2024 04:17:56 UTC] PHP Parse error:  syntax error, unexpected token "/", expecting end of file in /opt/lampp/htdocs/wordpress-6.6.1/wordpress/wp-content/themes/troyweb_applicant/functions.php on line 16
 [09-Sep-2024 04:18:15 UTC] PHP Parse error:  syntax error, unexpected token "/", expecting end of file in /opt/lampp/htdocs/wordpress-6.6.1/wordpress/wp-content/themes/troyweb_applicant/functions.php on line 16
 [09-Sep-2024 04:18:16 UTC] PHP Parse error:  syntax error, unexpected token "/", expecting end of file in /opt/lampp/htdocs/wordpress-6.6.1/wordpress/wp-content/themes/troyweb_applicant/functions.php on line 16
+[09-Sep-2024 05:24:13 UTC] PHP Parse error:  syntax error, unexpected end of file in /opt/lampp/htdocs/wordpress-6.6.1/wordpress/wp-content/themes/troyweb_applicant/functions.php on line 38
+[09-Sep-2024 05:24:13 UTC] PHP Parse error:  syntax error, unexpected end of file in /opt/lampp/htdocs/wordpress-6.6.1/wordpress/wp-content/themes/troyweb_applicant/functions.php on line 38
+[09-Sep-2024 06:12:22 UTC] PHP Warning:  Attempt to read property "title" on null in /opt/lampp/htdocs/wordpress-6.6.1/wordpress/wp-includes/class-wp-customize-widgets.php on line 905
