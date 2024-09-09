@@ -1,7 +1,7 @@
-<?php get_header() ; ?>
+<?php get_header(); ?>
 <section class='page-wrap'>
     <div class='container'>
-        <?php get_template_part('includes/section','content');?>
+        <?php get_template_part('includes/section', 'content'); ?>
     </div>
 </section>
 
@@ -78,4 +78,4 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/code-image.png" alt="code image">
     </div>
 </section>
-<?php get_footer() ; ?>
+<?php get_footer(); ?>

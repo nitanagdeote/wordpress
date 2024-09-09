@@ -9,10 +9,10 @@
             </a>
         </div>
         <div>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-x-twitter"></i>
-            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-facebook fa-2x"></i>
+            <i class="fa-brands fa-instagram fa-2x"></i>
+            <i class="fa-brands fa-x-twitter fa-2x"></i>
+            <i class="fa-brands fa-linkedin fa-2x"></i>
         </div>
     </div>
 </footer>
